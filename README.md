@@ -13,4 +13,4 @@ TERRAGRUNT_LOG_LEVEL=debug \
     terragrunt run-all validate
 ```
 
-See what this command output looked like in [./terragrunt-run-all-validate.script.colorless](./terragrunt-run-all-validate.script.colorless).
+See what error I got [here in /terragrunt-run-all-validate.script.colorless](https://github.com/timblaktu/terragrunt-mocked-output-problem/blob/main/terragrunt-run-all-validate.script.colorless#L254)).
