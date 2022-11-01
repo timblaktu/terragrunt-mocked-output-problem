@@ -1,6 +1,6 @@
 # terragrunt-mocked-output-problem
 
-Run this command to reproduce the problem:
+## Run this command to reproduce the problem:
 
 ```
 AWS_PROFILE=my-profile \
@@ -13,3 +13,4 @@ TERRAGRUNT_LOG_LEVEL=debug \
     terragrunt run-all validate
 ```
 
+See what this command output looked like in [./terragrunt-run-all-validate.script.colorless](./terragrunt-run-all-validate.script.colorless).
