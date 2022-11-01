@@ -1,0 +1,263 @@
+Script started on 2022-10-31 21:23:12-07:00 [TERM="xterm-256color" TTY="/dev/pts/18" COLUMNS="372" LINES="94"]
+[37mDEBU[0m[0000] Terragrunt Version: v0.39.2                  
+[37mDEBU[0m[0000] Found locals block: evaluating the expressions.  [37mprefix[0m=[/home/tim/src/terragrunt-test] 
+[37mDEBU[0m[0000] Setting download directory for module /home/tim/src/terragrunt-test to /home/tim/src/terragrunt-test/.terragrunt-cache 
+[37mDEBU[0m[0000] Module /home/tim/src/terragrunt-test does not have an associated terraform configuration and will be skipped. 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules] 
+[37mDEBU[0m[0000] Setting download directory for module /home/tim/src/terragrunt-test/modules to /home/tim/src/terragrunt-test/modules/.terragrunt-cache 
+[37mDEBU[0m[0000] Module /home/tim/src/terragrunt-test/modules does not have an associated terraform configuration and will be skipped. 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account] 
+[37mDEBU[0m[0000] Setting download directory for module /home/tim/src/terragrunt-test/modules/account to /home/tim/src/terragrunt-test/modules/account/.terragrunt-cache 
+[37mDEBU[0m[0000] Module /home/tim/src/terragrunt-test/modules/account does not have an associated terraform configuration and will be skipped. 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] [Partial] Included config /home/tim/src/terragrunt-test/modules/account/terragrunt.hcl has strategy shallow merge: merging config in (shallow).  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Setting download directory for module /home/tim/src/terragrunt-test/modules/account/data to /home/tim/src/terragrunt-test/modules/account/data/.terragrunt-cache 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region] 
+[37mDEBU[0m[0000] Setting download directory for module /home/tim/src/terragrunt-test/modules/region to /home/tim/src/terragrunt-test/modules/region/.terragrunt-cache 
+[37mDEBU[0m[0000] Module /home/tim/src/terragrunt-test/modules/region does not have an associated terraform configuration and will be skipped. 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] [Partial] Included config /home/tim/src/terragrunt-test/modules/region/terragrunt.hcl has strategy shallow merge: merging config in (shallow).  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Setting download directory for module /home/tim/src/terragrunt-test/modules/region/data to /home/tim/src/terragrunt-test/modules/region/data/.terragrunt-cache 
+[37mDEBU[0m[0000] Found locals block: evaluating the expressions.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0000] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test] 
+[37mDEBU[0m[0000] Evaluated 2 locals (remaining 0): globals, vpc_cidr  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0000] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0000] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0000] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0000] [Partial] Included config /home/tim/src/terragrunt-test/modules/terragrunt.hcl has strategy shallow merge: merging config in (shallow).  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0000] Setting download directory for module /home/tim/src/terragrunt-test/modules/vpc to /home/tim/src/terragrunt-test/modules/vpc/.terragrunt-cache 
+[37mDEBU[0m[0000] Stack at /home/tim/src/terragrunt-test:
+  => Module /home/tim/src/terragrunt-test/modules/account/data (excluded: false, assume applied: false, dependencies: [])
+  => Module /home/tim/src/terragrunt-test/modules/region/data (excluded: false, assume applied: false, dependencies: [])
+  => Module /home/tim/src/terragrunt-test/modules/vpc (excluded: false, assume applied: false, dependencies: [/home/tim/src/terragrunt-test/modules/region/data]) 
+[36mINFO[0m[0000] The stack at /home/tim/src/terragrunt-test will be processed in the following order for command validate:
+Group 1
+- Module /home/tim/src/terragrunt-test/modules/account/data
+- Module /home/tim/src/terragrunt-test/modules/region/data
+
+Group 2
+- Module /home/tim/src/terragrunt-test/modules/vpc
+ 
+[37mDEBU[0m[0000] Module /home/tim/src/terragrunt-test/modules/account/data must wait for 0 dependencies to finish  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Running module /home/tim/src/terragrunt-test/modules/account/data now  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Module /home/tim/src/terragrunt-test/modules/region/data must wait for 0 dependencies to finish  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Running module /home/tim/src/terragrunt-test/modules/region/data now  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Module /home/tim/src/terragrunt-test/modules/vpc must wait for 1 dependencies to finish  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] [Partial] Included config /home/tim/src/terragrunt-test/modules/region/terragrunt.hcl has strategy shallow merge: merging config in (shallow).  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Running command: terraform --version          [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] [Partial] Included config /home/tim/src/terragrunt-test/modules/account/terragrunt.hcl has strategy shallow merge: merging config in (shallow).  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Running command: terraform --version          [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Terraform version: 1.2.7                      [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Reading Terragrunt config file at /home/tim/src/terragrunt-test/modules/region/data/terragrunt.hcl  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] [Partial] Included config /home/tim/src/terragrunt-test/modules/region/terragrunt.hcl has strategy shallow merge: merging config in (shallow).  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Terraform version: 1.2.7                      [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Reading Terragrunt config file at /home/tim/src/terragrunt-test/modules/account/data/terragrunt.hcl  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Included config /home/tim/src/terragrunt-test/modules/region/terragrunt.hcl has strategy shallow merge: merging config in (shallow) for dependency.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Included config /home/tim/src/terragrunt-test/modules/region/terragrunt.hcl has strategy shallow merge: merging config in (shallow).  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] [Partial] Included config /home/tim/src/terragrunt-test/modules/account/terragrunt.hcl has strategy shallow merge: merging config in (shallow).  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Detected 1 Hooks                              [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Downloading Terraform configurations from file:///home/tim/src/terragrunt-test into /home/tim/src/terragrunt-test/modules/region/data/.terragrunt-cache/mjtp5KqMyE2xcvK0UbRDGmYmrlg/3KUPxGjrbPGnLi1xbG2FOz10p0w  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Included config /home/tim/src/terragrunt-test/modules/account/terragrunt.hcl has strategy shallow merge: merging config in (shallow) for dependency.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Included config /home/tim/src/terragrunt-test/modules/account/terragrunt.hcl has strategy shallow merge: merging config in (shallow).  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Detected 1 Hooks                              [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Downloading Terraform configurations from file:///home/tim/src/terragrunt-test into /home/tim/src/terragrunt-test/modules/account/data/.terragrunt-cache/Dc26BBwHhpbQeolk3ozX71Q3hQg/3KUPxGjrbPGnLi1xbG2FOz10p0w  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Copying files from /home/tim/src/terragrunt-test/modules/region/data into /home/tim/src/terragrunt-test/modules/region/data/.terragrunt-cache/mjtp5KqMyE2xcvK0UbRDGmYmrlg/3KUPxGjrbPGnLi1xbG2FOz10p0w/modules/region/data  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Setting working directory to /home/tim/src/terragrunt-test/modules/region/data/.terragrunt-cache/mjtp5KqMyE2xcvK0UbRDGmYmrlg/3KUPxGjrbPGnLi1xbG2FOz10p0w/modules/region/data  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Detected 1 Hooks                              [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[36mINFO[0m[0000] Executing hook: workspace                     [36mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Running command: ../../../script/terragrunt-workspace-hook.sh default  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0000] Copying files from /home/tim/src/terragrunt-test/modules/account/data into /home/tim/src/terragrunt-test/modules/account/data/.terragrunt-cache/Dc26BBwHhpbQeolk3ozX71Q3hQg/3KUPxGjrbPGnLi1xbG2FOz10p0w/modules/account/data  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Setting working directory to /home/tim/src/terragrunt-test/modules/account/data/.terragrunt-cache/Dc26BBwHhpbQeolk3ozX71Q3hQg/3KUPxGjrbPGnLi1xbG2FOz10p0w/modules/account/data  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Detected 1 Hooks                              [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[36mINFO[0m[0000] Executing hook: workspace                     [36mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0000] Running command: ../../../script/terragrunt-workspace-hook.sh default  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+../../../script/terragrunt-workspace-hook.sh: line 18: /home/tim/src/terragrunt-test/modules/region/data/.terragrunt-cache/mjtp5KqMyE2xcvK0UbRDGmYmrlg/3KUPxGjrbPGnLi1xbG2FOz10p0w/script/functions.sh: No such file or directory
+terragrunt-workspace-hook: TF_WORKSPACE=proto67 MODULE_SPECIFIC_WORKSPACE=default. Unsetting TF_WORKSPACE...
+terragrunt-workspace-hook: Initializing using default workspace (unsetting TF_WORKSPACE)...
+terragrunt-workspace-hook: TF_WORKSPACE=proto67 MODULE_SPECIFIC_WORKSPACE=default. Unsetting TF_WORKSPACE...
+../../../script/terragrunt-workspace-hook.sh: line 18: /home/tim/src/terragrunt-test/modules/account/data/.terragrunt-cache/Dc26BBwHhpbQeolk3ozX71Q3hQg/3KUPxGjrbPGnLi1xbG2FOz10p0w/script/functions.sh: No such file or directory
+terragrunt-workspace-hook: Initializing using default workspace (unsetting TF_WORKSPACE)...
+    [32mDefault workspace initialized(B[m
+terragrunt-workspace-hook: Selecting the module-specific workspace default...
+    [32mDefault workspace initialized(B[m
+terragrunt-workspace-hook: Selecting the module-specific workspace default...
+    [32mWorkspace default selected(B[m
+[37mDEBU[0m[0002] Running command: terraform init               [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+
+[0m[1mInitializing the backend...[0m
+    [32mWorkspace default selected(B[m
+[37mDEBU[0m[0003] Running command: terraform init               [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+
+[0m[1mInitializing the backend...[0m
+
+[0m[1mInitializing provider plugins...[0m
+- Reusing previous version of hashicorp/aws from the dependency lock file
+
+[0m[1mInitializing provider plugins...[0m
+- Reusing previous version of hashicorp/random from the dependency lock file
+- Reusing previous version of hashicorp/aws from the dependency lock file
+- Using previously-installed hashicorp/random v3.4.3
+- Using previously-installed hashicorp/aws v4.37.0
+
+[0m[1m[32mTerraform has been successfully initialized![0m[32m[0m
+[0m[32m
+You may now begin working with Terraform. Try running "terraform plan" to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
+
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.[0m
+[37mDEBU[0m[0004] Copying lock file from /home/tim/src/terragrunt-test/modules/account/data/.terragrunt-cache/Dc26BBwHhpbQeolk3ozX71Q3hQg/3KUPxGjrbPGnLi1xbG2FOz10p0w/modules/account/data/.terraform.lock.hcl to /home/tim/src/terragrunt-test/modules/account/data  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0004] Detected 1 Hooks                              [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[36mINFO[0m[0004] Executing hook: workspace                     [36mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[37mDEBU[0m[0004] Running command: ../../../script/terragrunt-workspace-hook.sh default  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+../../../script/terragrunt-workspace-hook.sh: line 18: /home/tim/src/terragrunt-test/modules/account/data/.terragrunt-cache/Dc26BBwHhpbQeolk3ozX71Q3hQg/3KUPxGjrbPGnLi1xbG2FOz10p0w/script/functions.sh: No such file or directory
+terragrunt-workspace-hook: TF_WORKSPACE=proto67 MODULE_SPECIFIC_WORKSPACE=default. Unsetting TF_WORKSPACE...
+terragrunt-workspace-hook: Initializing using default workspace (unsetting TF_WORKSPACE)...
+- Using previously-installed hashicorp/aws v4.37.0
+
+[0m[1m[32mTerraform has been successfully initialized![0m[32m[0m
+[0m[32m
+You may now begin working with Terraform. Try running "terraform plan" to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
+
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.[0m
+[37mDEBU[0m[0004] Copying lock file from /home/tim/src/terragrunt-test/modules/region/data/.terragrunt-cache/mjtp5KqMyE2xcvK0UbRDGmYmrlg/3KUPxGjrbPGnLi1xbG2FOz10p0w/modules/region/data/.terraform.lock.hcl to /home/tim/src/terragrunt-test/modules/region/data  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0004] Detected 1 Hooks                              [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[36mINFO[0m[0004] Executing hook: workspace                     [36mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0004] Running command: ../../../script/terragrunt-workspace-hook.sh default  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+../../../script/terragrunt-workspace-hook.sh: line 18: /home/tim/src/terragrunt-test/modules/region/data/.terragrunt-cache/mjtp5KqMyE2xcvK0UbRDGmYmrlg/3KUPxGjrbPGnLi1xbG2FOz10p0w/script/functions.sh: No such file or directory
+terragrunt-workspace-hook: TF_WORKSPACE=proto67 MODULE_SPECIFIC_WORKSPACE=default. Unsetting TF_WORKSPACE...
+terragrunt-workspace-hook: Initializing using default workspace (unsetting TF_WORKSPACE)...
+    [32mDefault workspace initialized(B[m
+terragrunt-workspace-hook: Selecting the module-specific workspace default...
+    [32mDefault workspace initialized(B[m
+terragrunt-workspace-hook: Selecting the module-specific workspace default...
+    [32mWorkspace default selected(B[m
+[37mDEBU[0m[0007] Running command: terraform validate           [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+    [32mWorkspace default selected(B[m
+[37mDEBU[0m[0007] Running command: terraform validate           [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[32m[1mSuccess![0m The configuration is valid.
+[0m
+[37mDEBU[0m[0008] Module /home/tim/src/terragrunt-test/modules/account/data has finished successfully!  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/account/data] 
+[32m[1mSuccess![0m The configuration is valid.
+[0m
+[37mDEBU[0m[0009] Module /home/tim/src/terragrunt-test/modules/region/data has finished successfully!  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0009] Dependency /home/tim/src/terragrunt-test/modules/region/data of module /home/tim/src/terragrunt-test/modules/vpc just finished successfully. Module /home/tim/src/terragrunt-test/modules/vpc must wait on 0 more dependencies.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Running module /home/tim/src/terragrunt-test/modules/vpc now  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Found locals block: evaluating the expressions.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test] 
+[37mDEBU[0m[0009] Evaluated 2 locals (remaining 0): globals, vpc_cidr  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] [Partial] Included config /home/tim/src/terragrunt-test/modules/terragrunt.hcl has strategy shallow merge: merging config in (shallow).  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Running command: terraform --version          [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Terraform version: 1.2.7                      [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Reading Terragrunt config file at /home/tim/src/terragrunt-test/modules/vpc/terragrunt.hcl  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Found locals block: evaluating the expressions.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test] 
+[37mDEBU[0m[0009] Evaluated 2 locals (remaining 0): globals, vpc_cidr  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] [Partial] Included config /home/tim/src/terragrunt-test/modules/terragrunt.hcl has strategy shallow merge: merging config in (shallow).  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Found locals block: evaluating the expressions.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test] 
+[37mDEBU[0m[0009] Evaluated 2 locals (remaining 0): vpc_cidr, globals  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Included config /home/tim/src/terragrunt-test/modules/terragrunt.hcl has strategy shallow merge: merging config in (shallow) for dependency.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0009] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0009] [Partial] Included config /home/tim/src/terragrunt-test/modules/region/terragrunt.hcl has strategy shallow merge: merging config in (shallow).  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/region/data] 
+[37mDEBU[0m[0009] WARNING: config /home/tim/src/terragrunt-test/modules/region/data/terragrunt.hcl is a dependency of /home/tim/src/terragrunt-test/modules/vpc/terragrunt.hcl that has no outputs, but mock outputs provided and returning those in dependency output.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Did not find any locals block: skipping evaluation.  [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] Exposing include block 'root'                 [37mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[31mERRO[0m[0009] Module /home/tim/src/terragrunt-test/modules/vpc has finished with an error: /home/tim/src/terragrunt-test/modules/vpc/terragrunt.hcl:53,49-73: Unsupported attribute; This object does not have an attribute named "availability_zone_names"., and 5 other diagnostic(s)  [31mprefix[0m=[/home/tim/src/terragrunt-test/modules/vpc] 
+[37mDEBU[0m[0009] 1 error occurred:
+	* /home/tim/src/terragrunt-test/modules/vpc/terragrunt.hcl:53,49-73: Unsupported attribute; This object does not have an attribute named "availability_zone_names"., and 5 other diagnostic(s)
+ 
+[31mERRO[0m[0009] 1 error occurred:
+	* /home/tim/src/terragrunt-test/modules/vpc/terragrunt.hcl:53,49-73: Unsupported attribute; This object does not have an attribute named "availability_zone_names"., and 5 other diagnostic(s)
+ 
+[31mERRO[0m[0009] Unable to determine underlying exit code, so Terragrunt will exit with error code 1 
+
+Script done on 2022-10-31 21:23:21-07:00 [COMMAND_EXIT_CODE="1"]
