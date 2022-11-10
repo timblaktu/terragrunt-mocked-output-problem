@@ -50,9 +50,9 @@ inputs = {
   cidr = local.vpc_cidr
 
   # TODO: make these region-resilient. All regions don't have 3 AZs, so check N before slicing N from the list
-  azs             = slice(dependency.region_data.availability_zone_names, 0, 2)
-  public_subnets  = [for k, v in slice(dependency.region_data.availability_zone_names, 0, 2) : cidrsubnet(local.vpc_cidr, 8, k)]
-  private_subnets = [for k, v in slice(dependency.region_data.availability_zone_names, 0, 2) : cidrsubnet(local.vpc_cidr, 8, k + 10)]
+  azs             = slice(dependency.region_data.outputs.availability_zone_names, 0, 2)
+  public_subnets  = [for k, v in slice(dependency.region_data.outputs.availability_zone_names, 0, 2) : cidrsubnet(local.vpc_cidr, 8, k)]
+  private_subnets = [for k, v in slice(dependency.region_data.outputs.availability_zone_names, 0, 2) : cidrsubnet(local.vpc_cidr, 8, k + 10)]
 
   enable_nat_gateway   = true
   single_nat_gateway   = true
@@ -81,5 +81,6 @@ inputs = {
     "kubernetes.io/role/internal-elb"                             = 1
   }
 
-  tags = local.tags
+  # not sure from where tags appears so I commented definition
+  #tags = local.tags
 }
